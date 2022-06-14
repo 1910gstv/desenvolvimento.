@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@500&family=Kanit:wght@300&family=Kulim+Park:wght@600&family=Lalezar&family=M+PLUS+Code+Latin:wght@500&family=Montserrat:ital,wght@0,100;0,200;0,900;1,900&family=Roboto:wght@100;900&family=Ubuntu&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 8px;
+    box-shadow: 0.2px 0.5px 25px rgba(0, 0, 0, 0.142);
+    padding-bottom: 8px;
+}
+
+#logo-cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    letter-spacing: 4px;
+    font-family: 'kulim park';
+    color: #5B4B8A;
+    font-weight: bold;
+}
+
+#menunav{
+    display: flex;
+    gap: 48px;
+    letter-spacing: 4px;
+    font-family: 'kulim park';
+    color:#5B4B8A;
+}
+
+#corpo #primeiro-conteudo{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    padding-top: 24px;
+}
+
+#primeiro-conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    height: 600px;
+}
+
+#texto-primeiro-conteudo{
+    width: 850px;
+    font-family: 'roboto';
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: #5B4B8A;
+}
+
+
+#rodape{
+    text-align: center;
+    margin-top: 12px;
+    padding-top: 12px;
+    background-color: #5B4B8A;
+    height: 30px;
+    color: white;
+    font-family: 'kulim park';
+}
